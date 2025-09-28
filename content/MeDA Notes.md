@@ -1,0 +1,1 @@
+Challenge for [MICAI 2025](https://micai.org/2025/)
