@@ -2,7 +2,6 @@
 title: Curso AWS - IA Generativa
 ---
 # Module 3: Introducing Gen. AI
-
 ## Foundation Models
 
 - Based on complex NNs & trained on massive datasets, which allows them to produce *generalized responses* to natual language inputs
@@ -117,3 +116,35 @@ They go alongside the scale of less managed/more control
 </context>
 <task>Perform (task description) in the context of <context> and follow the directions included as <constraints>. Format the output as described in <format>. </task>
 ```
+
+## Prompting techniques
+
+### Zero shot, single-shot and few-shot
+
+![[shot-prompting.png]]
+
+### Tools, actions & exclusions
+
+![[tools-actions-negations-prompt.png]]
+
+### Chain of Thought
+
+Provides *step-by-step instructions*
+
+### Tree of thought
+
+*Extendes Chain of Thought*
+
+### Refine results
+
+- Iterative refinement: Evaluate the output, adjust the prompt and repeat until you get the desired response
+- Output selection: Choose from multiple model responses
+- Output adjustments: Edit the outputs to achieve the desired result, includes filtering out undesired or not relevant parts of the response, and post-editing the response to achieve the desired results, adhere to a tone, etc.
+
+## The risk of adverse prompts
+
+==**Adverse prompts**: Malicious prompts that intend to alter the behavior of gen. AI systems.==
+
+| Prompt injection                             | Prompt leaking                                       | Jailbreaking                                                | Social Engineering                            |
+| -------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------- |
+| Embed malicious instructions within a prompt | Get the model to leak information about how it works | Circumvent the constraints and safety measures (guardrails) | Exploit the AI system's attempt to be helpful |
