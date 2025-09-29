@@ -94,3 +94,26 @@ They go alongside the scale of less managed/more control
 
 ## Structuring an LLM prompt
 
+**Prompt elements can be described in two ways:**
+- Tell the model *exactly* what to do (Describing the tasks a model should perform)
+	- Task description: Clearly define the task/objective
+	- Instruction or step-by-step instructions
+	- Response format or output characteristics (e.g. establish length, format, etc.)
+- Tell the model what you want (Customizing the nature of the response)
+	- Input data, context or examples
+	- Persona or role, audience, tone or style
+	- Constraints or exclusions
+
+**Use consistent formatting**, one example of this is tagging
+```XML
+<constraints>
+...
+</constraints>
+<format>
+...
+</format>
+<context>
+...
+</context>
+<task>Perform (task description) in the context of <context> and follow the directions included as <constraints>. Format the output as described in <format>. </task>
+```
