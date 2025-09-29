@@ -1,7 +1,7 @@
 ---
 title: Curso AWS - IA Generativa
 ---
-# Modulo 3: Introducing Gen. AI
+# Module 3: Introducing Gen. AI
 
 ## Foundation Models
 
@@ -41,5 +41,56 @@ title: Curso AWS - IA Generativa
 
 ## AWS generative AI services
 **Three primary services**
-![[Pasted image 20250929110536.png]]
+![[files/aws-ai-services.png]]
 They go alongside the scale of less managed/more control
+
+### Amazon SageMaker AI
+
+- **You have full control over training and deployment pipelines**
+- Build, train and deploy ML models, including FMs
+- Get access to purpose-built tools for the ML lifecycle, including:
+	- training infrastructure
+	- governance
+	- operations tools
+- Access public FMs with Amazon SageMaker Jumpstart
+
+### Amazon Bedrock
+
+- Use established FMs
+- Designed to *easily evaluate and test* FMs, so you can find the best one for your needs
+- Don't worry about infrastructure
+- *Unified API*
+- Implement guardrails
+
+### Amazon Q
+
+- Amazon's own deployment of Gen. AI FMs
+- Directed at end users
+- Built on Bedrock
+- Amazon Q Developer: Coding assistant
+- Amazon Q Business: Chat assistant
+
+## Generative AI use cases
+
+- **When it is a good idea**
+	- Processing and analyzing diverse, unstructured data sources
+	- Sy
+- **When it is a bad idea**
+	- Ethical concerns
+	- Accuracy and consistency requirements
+	- Explainability or transparency required
+	- Lack of high-quality data
+	- Unclear business value for cost
+
+# Module 4: Using Prompts and Prompt Engineering
+
+## The value of prompt engineering
+
+**Advantages of prompt engineering:**
+- Higher quality outputs
+- Reduce costs
+- Increase safety measures
+- Augment the model capabilities with domain-specific knowledge, by including it *as part of the prompt*, removing the need for additional model training.
+
+## Structuring an LLM prompt
+
