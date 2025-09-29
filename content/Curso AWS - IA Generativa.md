@@ -114,7 +114,9 @@ They go alongside the scale of less managed/more control
 <context>
 ...
 </context>
-<task>Perform (task description) in the context of <context> and follow the directions included as <constraints>. Format the output as described in <format>. </task>
+<task>Perform (task description) in the context of <context>
+and follow the directions included as <constraints>. Format
+the output as described in <format>. </task>
 ```
 
 ## Prompting techniques
