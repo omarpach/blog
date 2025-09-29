@@ -18,4 +18,20 @@ title: Curso AWS - IA Generativa
 | Generative adversarial networks (GANs) | Consists of two NNs, one generates data, one classifies real from fake data, and the generative tries to fool the classifying one.           | - Photo-realistic image generation<br>- Img2Img translation and style transfer<br>- Audio generation                                 |
 | Variational autoencoders (VAEs)        | VAEs learn a latent representation of input data and generate new samples that resemble the original.                                        | <br>- Img generation<br>- Img interpolation and style transfer<br>- Audio generation                                                 |
 | Transformer-based models               | These models can focus on the most relevant parts of an input and pay attention to different parts of the input simultaneously.              | - LLMs, NLP and translation<br>- Multi-modal tasks, such as image captioning                                                         |
-
+	
+- How LLMs work
+		- Tokenization
+		- Embeddings
+		- Prediction of outputs based on probability
+	- Challenges of gen. models
+		- Hallucinations
+			- Generate results that look correct but are false
+		- Toxicity
+			- Generate outputs that include offensive content
+		- Bias
+			- Models unknowingly perpetuate or amplify societal biases (e.g. racism, sexism) present in training data ([gorilla incident](https://s.wsj.net/public/resources/images/BN-JE720_Google_E_20150701142359.jpg))
+	- Inference parameters
+		- Make the model more or less 'creative'
+		- More deterministic -> Increase accuracy
+		- Less deterministic -> Increase creativity
+	- They can use external data

@@ -1,5 +1,5 @@
 ---
 title: Home
 ---
-[[MeDA Notes]]
-[[TopicosAvanzados]]
+[[MeDA Notes]]  
+[[TopicosAvanzados]]  
