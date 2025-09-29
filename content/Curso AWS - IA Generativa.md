@@ -1,6 +1,10 @@
 ---
 title: Curso AWS - IA Generativa
 ---
+# Link to the course
+
+[link](https://awsacademy.instructure.com/courses/134690/modules)
+
 # Module 3: Introducing Gen. AI
 ## Foundation Models
 
