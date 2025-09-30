@@ -44,7 +44,7 @@ title: Curso AWS - IA Generativa
 
 ## AWS generative AI services
 **Three primary services**
-![[files/aws-ai-services.png]]
+![[aws-ai-services.png]]
 They go alongside the scale of less managed/more control
 
 ### Amazon SageMaker AI

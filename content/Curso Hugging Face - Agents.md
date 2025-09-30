@@ -48,3 +48,10 @@ A Tools is a **function given to the LLM**, some common tools are:
 | Image Generation | Create images based on text descriptions                           |
 | Retrieval        | Retrieves information from external sources                        |
 | API Interface    | Interacts with an external API                                     |
+They **complement the power of LLMs**.
+
+A tool should contain:
+- A *textual description* of what it does
+- A *Callable* (function to perform an action)
+- *Arguments* with typings
+- (Optional) *Outputs* with typings
