@@ -2,12 +2,13 @@
 title: Home
 ---
 # Uni
----
+
 [[TopicosAvanzados]]  
 [[Redes Neuronales]]  
 [[Redes de Computadoras]]
 
-# Extra
 ---
+# Extra
+
 [[Arizona]]  
 [[Graduate choices]]
