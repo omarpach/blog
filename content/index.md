@@ -3,4 +3,5 @@ title: Home
 ---
 [[TopicosAvanzados]]  
 [[Redes Neuronales]]  
-[[Arizona]]
+[[Arizona]]  
+[[Graduate choices]]
