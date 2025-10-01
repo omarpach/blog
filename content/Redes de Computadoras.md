@@ -4,9 +4,13 @@ Tanenbaum, A. S. Computer Networks. Prentice-Hall, 2003.
 
 **Las sig. notas son de el libro**
 
+# Contenidos
+[[#1.2 Network Hardware]]
+[[#1.3 Network Software]]
+
 # 1. Introduction
 
-## 1.2 Netowrk Hardware
+## 1.2 Network Hardware
 
 No hay una conjunto de categorías que clasifiquen perfectamente a las redes de computadora, pero si hay dos que son de mucha importancia: *transmission technology & scale*
 
@@ -74,3 +78,5 @@ The connection of two or more networks is called an **internetwork**, the worldw
 - There are other topologies for wired LANs, *switched Ethernet is a modernized version of the original Ethernet*, which we will call **classic Ethernet**
 - In classic Ethernet all packets are broadcasted in a single linear cable, *at most one machine could successfuly transmit at a time*, because of this a mechanism was needed to resolve conflicts. The mechanism was simple, computers could only transmit whenever the cable was idle, if two or more packets collided, each computer waited a random amount of time and tried again.
 - *B*
+
+## 1.3 Network Software 
