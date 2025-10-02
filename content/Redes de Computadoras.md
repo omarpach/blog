@@ -1,11 +1,12 @@
-# Bibliografia
+# Bibliography
 
-Tanenbaum, A. S. Computer Networks. Prentice-Hall, 2003.
+[Tanenbaum, A. S. Computer Networks. Prentice-Hall, 2003.](https://csc-knu.github.io/sys-prog/books/Andrew%20S.%20Tanenbaum%20-%20Computer%20Networks.pdf)
 
 **Las sig. notas son de el libro**
 
-# Contenidos
-[[#1.2 Network Hardware]]
+# Contents
+
+[[#1.2 Network Hardware]]  
 [[#1.3 Network Software]]
 
 # 1. Introduction
@@ -80,3 +81,23 @@ The connection of two or more networks is called an **internetwork**, the worldw
 - *B*
 
 ## 1.3 Network Software 
+
+### 1.3.1 Protocol Hierarchies
+
+- In the early days, networks were designed hardware-first, and the software was an afterthought, those days are no more, *network software is now highly structured*
+- To reduce their design complexity, most networks are organized as a stack of **layers** or **levels**, **each one built upon the one below it**. The purpose of this design is **to abstract the details of the lower layers, to be able to communicate with it**
+- A **protocol** is an agreement between the communicating parties on how communication is to proceed, and is how the communication occurs between the n-th layer of one machine, and the n-th layer of another machine
+![[network-layers-diagram.png]]
+
+- **Peers**: The entities comprising the corresponding layers in different machines. They could be software processes, hardware devices or even human beings.
+- **Physical medium**: Where the communication actually occurs
+- **Interface**: The interface defines the operations and services the lower layer makes available to the upper one. In the diagram, interfaces are located *in between each pair of layers*
+- Interfaces allow for **easily replacing a layer with a different implementation or protocol**, given that as long as it complies with the interface, the implementation doesn't matter
+- A set of layers and protocols is called a **Network Architecture**, it must contain the necessary information to allow its implementation (whether it's a program or hardware)
+- A list of the protocols used by a certain system, one for each layer, is called a **Protocol Stack**
+- **Header**
+- The peer process abstraction is *crucial to all network design*, without it designing a complete network would be too daunting. Now with it, it can be broken into several manageable tasks (designing each layer)
+
+### 1.3.2 Design Issues for the Layers
+
+- 
