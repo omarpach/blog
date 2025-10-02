@@ -4,6 +4,9 @@
 
 **Las sig. notas son de el libro**
 
+> [!important] ¿En qué capa atmosférica se encuentran los satélites?
+> Termosfera y Exosfera
+
 # Contents
 
 [[#1.2 Network Hardware]]  
@@ -100,4 +103,17 @@ The connection of two or more networks is called an **internetwork**, the worldw
 
 ### 1.3.2 Design Issues for the Layers
 
-- 
+- **Error Detection**
+- **Error Correction**
+- **Routing**
+- **Protocol Layering**
+- **Addressing/Naming**
+- **Internetworking**
+- **Scalable**
+- **Statistical Multiplexing**
+- **Flow Control**, **Congestion**
+- **Real-Time**, **Quality of Service**
+- **Confidentiality**, **Authentication**, **Integrity**
+
+### 1.3.3 Connection-Oriented Versus Connectionless Service
+

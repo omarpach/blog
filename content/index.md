@@ -5,7 +5,8 @@ title: Home
 
 [[TopicosAvanzados]]  
 [[Redes Neuronales]]  
-[[Redes de Computadoras]]
+[[Redes de Computadoras]]  
+[[Sistemas Operativos]]
 
 ---
 # Extra
