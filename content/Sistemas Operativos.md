@@ -34,7 +34,9 @@ mindmap
 ### 3.1.3 Process Control Block
 
 - Each process is represented in the operating system by a **Process Control Block (PCB)**, also known as **Task Control Block (TCB)**
+
 ![[pcb-diagram.png]]
+
 - A PCB contains the following:
 	- **Process State**
 	- **Program Counter**: Holds the address of the next instruction to be executed for this process
