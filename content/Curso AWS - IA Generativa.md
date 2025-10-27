@@ -161,3 +161,42 @@ Provides *step-by-step instructions*
 - The Chat/Text playground in Amazon Bedrock supports experimenting with prompts across different models and settings
 - The Prompt Management features provides the option to save and version prompt structures with variables for reuse
 - Amazon Bedrock Guardrails includes options for filtering and blocking undesired input data and combatting adverse prompting
+
+# Module 5: Working with Foundation Models (FMs)
+
+## Considerations for choosing and adapting a foundation model
+
+There are three approaches for choosing a FM:
+- Reuse an existing model (use prompts)
+- Adapt a FM with additional data (reference a knowledge base or customize)
+- Build your own model
+
+### Get the most out of pre-trained FMs
+
+- Choose a model that suits the business problem
+- Experiment with inference parameters
+- Optimize the prompt
+- Use custom data to improve performance for the use case
+
+## Choosing the right foundation model for the use case
+
+### Considerations for choosing a pre-trained FM
+
+- **Capabilities:** What does the model need to do
+- **Size and Complexity:** How complex are the tasks and how critical is accuracy?
+- **Inference speed:** How quickly must the model respond?
+- **Training Data:** What can you find out about the training data?
+- **Ethical practices:** Is there a risk of bias or ethical concerns?
+- **Costs:** What does it cost to use the model?
+- **Implementation:** What is the effort to integrate, deploy, and run?
+
+### Model size and complexity
+
+> [!note] Definition
+> **Parameters**: The internal variables that are learned and adjusted during training to capture patterns and relationships.
+
+- Parameters can be used as a measure of model size and complexity
+
+> [!Warning] Get only what you need
+> When choosing a model, use one with *just the necessary size to handle the complexity of the task*, so you don't pay for resources you don't need
+

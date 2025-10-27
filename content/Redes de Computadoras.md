@@ -101,19 +101,60 @@ The connection of two or more networks is called an **internetwork**, the worldw
 - **Header**
 - The peer process abstraction is *crucial to all network design*, without it designing a complete network would be too daunting. Now with it, it can be broken into several manageable tasks (designing each layer)
 
+> [!note]- The Philosophers Analogy
+> ![[philosophers-network-analogy.png]]
+
 ### 1.3.2 Design Issues for the Layers
 
-- **Error Detection**
-- **Error Correction**
-- **Routing**
-- **Protocol Layering**
-- **Addressing/Naming**
-- **Internetworking**
-- **Scalable**
-- **Statistical Multiplexing**
-- **Flow Control**, **Congestion**
+- **Error Detection:** Code for knowing when the information received was damaged
+- **Error Correction:** More powerful technology, allows for the correct message to be **recovered** from the damaged message
+- **Routing:** In large networks there are multiple ways the packets can go through, and there can be multiple broken links or routers. *The network should automatically find a working path*
+- **Protocol Layering**: Key mechanism that allows networks to connect to new technologies or designs, and overall, to easily adapt
+- **Addressing/Naming:** Mechanism that allows layers to identify senders and receivers involved in a particular message
+- **Internetworking:** When connecting multiple networks, problems can arise like having networks that preserve the order in messages and networks that don't. Or having networks that don't share the maximum message size for transmission. These conflicts lead to the creation of mechanisms that allow compatibility between networks; both the conflicts and the mechanisms are called *Internetworking*
+- **Scalable:** Characteristic of networks that are designed to continue to work *well* when the network gets large
+- **Statistical Multiplexing:** Share bandwidth *dynamically*, based on the statistics of demand
+- **Flow Control:** Mechanisms to keep a fast sender from drowning a slow receiver with data
+- **Congestion:** Overloading of the network, occurs when the network is connected to too many computers, which want to send too much traffic, and the network can't handle it
 - **Real-Time**, **Quality of Service**
 - **Confidentiality**, **Authentication**, **Integrity**
 
 ### 1.3.3 Connection-Oriented Versus Connectionless Service
 
+#### Connection-Oriented Service
+
+- First **establish a connection**, then use the connection, and finally release it.
+
+```mermaid
+flowchart LR
+	id1((Sender))-- Data -->Connection
+	Connection-- Data -->id2((Receiever))
+```
+
+- In most cases **the order of the messages is preserved**
+- In some cases when a connection is established, the sender, the receiver and the subnet, conduct a **negotiation** about the parameters to be used, like maximum message size, quality of service required, etc. In negotiations, typically one side makes a proposal, and the other side accepts it, rejects it, or makes a counter-proposal
+
+## 1.4 Reference Models
+
+### The OSI Reference Model
+
+#### The Physical Layer
+
+- Transmits raw bits over a communication channel
+- Decides what voltage is 1 or 0, how long should the signal last, etc.
+
+#### The Data Link Layer
+
+- 
+
+# 23 - Oct - 25
+
+## Transmision de Radio
+
+- Viajan largas distancias
+- A bajas frecuencias atraviesan edificios
+- Son omnidireccionales
+- A altas frecuencias la señal viaja en línea recta, rebota en los objetos y la lluvia las absorbe
+- Sufren interferencia por motores y equipos eléctricos, los autos nuevos tienen un filtro para contrarestar la interferencia
+- Las bandas de las frecuencias VLF, LF y MF siguen la curvatura de la tierra. Teniendo un alcance de hasta 1000 km.
+- Las estaciones de radio AM
