@@ -3,6 +3,7 @@
 - [Silberschatz, A., Galvin, P., & Gagne, G. (2014). _Operating System Concepts Essentials_ (Segunda edición ed.). Wiley.](https://www.pdfiles.net/storage/Books/operating-systems/operating_system_concepts_essentials.pdf)
 - [Silberschatz. A., Galvin, P., & Gagne, G. (2018). *Operating System Concepts (Decima edición ed.). Wiley*](https://os.ecci.ucr.ac.cr/slides/Abraham-Silberschatz-Operating-System-Concepts-10th-2018.pdf)
 - [Playlist Videos Relevantes](https://youtube.com/playlist?list=PLv_ocwVAliKCkxT19pJUx8Lr2BjJfSlQM&si=QjVBIfE-EclQaCbF)
+- [Unidad II](https://github.com/omarpach/7sem/blob/main/sistemas-operativos/bibliografia/Unidad%20II-%20Procesos%20y%20tareas.pdf)
 
 # Chapter 3 - Processes
 
